@@ -568,7 +568,7 @@ img {
 }
 @media (max-width: 340px) {
   #home{
-    margin-right: 50px;
+    margin-right: 60px;
   }
   #home-button{
     padding: 25px 0;
