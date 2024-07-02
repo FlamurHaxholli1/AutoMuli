@@ -29,7 +29,7 @@ header {
   position: fixed;
   top: 0;
   width: 94%;
-  background-color: darkblue;
+  background-color: grey;
   backdrop-filter: blur(20px);
   display: flex;
   justify-content: space-between;
@@ -568,7 +568,7 @@ img {
     padding: 25px 0;
   }
   .menu-btn, .close-toggle{
-    margin-left: 10rem;
+    margin-left: 15rem;
   }
   #home{ 
     margin-left: 120px;
