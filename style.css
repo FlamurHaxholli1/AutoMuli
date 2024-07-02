@@ -498,12 +498,6 @@ img {
   }
 }
 
-@media (max-width: 340px) {
-  #about {
-    margin-left: 2rem;
-  }
-}
-
 
 @media (max-width: 1150px) {
   .popular-container {
@@ -566,7 +560,7 @@ img {
     gap: 8rem;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 350px) {
   #home{
     margin-right: 60px;
   }
@@ -574,7 +568,7 @@ img {
     padding: 25px 0;
   }
   .menu-btn, .close-toggle{
-    margin-left: 15rem;
+    margin-left: 10rem;
   }
   #home{ 
     margin-left: 120px;
