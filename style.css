@@ -562,7 +562,7 @@ img {
 }
 @media (min-width: 390px) and (max-width: 415px) {
   #home{
-    margin: 0 30px;
+    margin-right: 6rem;
   }
   #home-button{
     padding: 25px 0;
