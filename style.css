@@ -562,7 +562,7 @@ img {
 }
 @media (min-width: 390px) and (max-width: 415px) {
   #home{
-    margin-right: 6rem;
+    margin-right: 8rem;
   }
   #home-button{
     padding: 25px 0;
@@ -576,7 +576,7 @@ img {
   }
   .about-img{
     width: 30rem;
-    margin-right: 25px;
+    margin-right: 40px;
   }
    #popular-title{
     margin-left: 110px;
