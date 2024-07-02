@@ -437,7 +437,7 @@ img {
 @media (max-width: 768px) {
   .nav-links {
     position: fixed;
-    top: 87.5px;
+    top: 90px;
     right: -100%;
     backdrop-filter: blur(20px);
     height: 150vh;
@@ -566,8 +566,11 @@ img {
     gap: 8rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 390px) {
 
+  header{
+    padding: 35px 5px;
+  }
   #home{
     margin-right: 80px;
   }
