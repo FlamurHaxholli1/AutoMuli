@@ -29,7 +29,7 @@ header {
   position: fixed;
   top: 0;
   width: 94%;
-  background-color: grey;
+  background-color: darkblue;
   backdrop-filter: blur(20px);
   display: flex;
   justify-content: space-between;
@@ -562,7 +562,7 @@ img {
 }
 @media (min-width: 390px) and (max-width: 415px) {
   #home{
-    margin-right: 50px;
+    margin-right: 30px;
   }
   #home-button{
     padding: 25px 0;
@@ -575,7 +575,7 @@ img {
     text-align: center;
   }
   .about-img{
-    width: 25rem;
+    width: 30rem;
     margin-right: 25px;
   }
    #popular-title{
@@ -594,8 +594,8 @@ img {
     margin-top: 15rem;
    }
    #logos{
-    margin-left: 200px;
-    width: 3px;
+    margin-left: 230px;
+    width: 30px;
    }
    .Scroll-up{
     padding: 5px;
