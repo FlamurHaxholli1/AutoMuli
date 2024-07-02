@@ -562,11 +562,9 @@ img {
 }
 @media (min-width: 390px) and (max-width: 415px) {
   #home{
-    margin-right: 8rem;
+    margin-left: 8rem;
   }
-  header{
-    padding-left: 10px;
-  }
+
   #home-button{
     padding: 25px 0;
   }
@@ -579,7 +577,7 @@ img {
   }
   .about-img{
     width: 30rem;
-    margin-right: 10px;
+    margin-left: 8rem;
   }
    #popular-title{
     margin-left: 110px;
