@@ -566,13 +566,11 @@ img {
     gap: 8rem;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 380px) {
 
-  header{
-    padding: 35px 5px;
-  }
+ 
   #home{
-    margin-right: 80px;
+    margin-right: 50px;
   }
   #home-button{
     padding: 25px 0;
