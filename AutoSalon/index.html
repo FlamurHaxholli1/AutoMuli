@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto-salon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="Scroll-up">
+    <header class="header">
+      <div class="logo">
+        <h3><i class="bx bxs-car"></i>AutoMuli</h3>
+      </div>
+      <input id="click" />
+      <label for="click" class="menu-btn">
+        <i class="bx bx-menu-alt-right"></i>
+      </label>
+      <label for="click" class="close-toggle">
+        <i class="bx bx-x"></i>
+      </label>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" >home</a></li>
+          <li><a href="#about">about </a></li>
+          <li><a href="#popular">popular</a></li>
+          <li><a href="#featured">featured</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- ============================ HOME ============================== -->
+      <section id="home">
+        <h3 class="home-title">Choose the best Car</h3>
+        <p class="home-car-title">Tesla</p>
+        <div class="electric-bx">
+          <i class="bx bxs-zap"><span>Electric car</span></i>
+        </div>
+
+        <img
+          src="/images/Tesla_Car_front-view-removebg-preview.png"
+          alt=""
+          class="home-img"
+        />
+        <div class="home-description">
+          <div class="item-1">
+            <i class="bx bxs-thermometer"></i>
+            <p class="home-p">24°C</p>
+            <p class="home-small-p">TEMPERATURE</p>
+          </div>
+          <div class="item-2">
+            <i class="bx bx-tachometer"></i>
+            <p class="home-p">873</p>
+            <p class="home-small-p">MILEAGE</p>
+          </div>
+          <div class="item-3">
+            <i class="bx bxs-bolt"></i>
+            <p class="home-p">94%</p>
+            <p class="home-small-p">BATTERY</p>
+          </div>
+        </div>
+        <a href="#about"><button class="home-button" id="home-button">START</button></a>
+      </section>
+      <!-- ============================ ABOUT SECTION ============================== -->
+      <section id="about" class="section">
+        <div>
+          <img src="/images/inside of a car.png" alt="" class="about-img" />
+        </div>
+        <div class="about-description">
+          <div class="about-title">
+            <h2 class="about-intro">
+              Machines with<br />
+              Future Technology
+            </h2>
+          </div>
+          <div class="about-p">
+            <p>
+              Se the future with high-Performance electric cars<br />
+              produced by renowed brands. They feature<br />
+              futuristic builds and designs with new and<br />
+              innovative Platforms that last a long time
+            </p>
+          </div>
+          <a href="#popular"><button class="about-button">Know more</button></a>
+        </div>
+      </section>
+      <!-- ========================== POPULAR SECTION ================================ -->
+      <section id="popular">
+        <h2 class="popular-title" id="popular-title">
+          Choose Your Electric Car Of<br />The Porsche Brand
+        </h2>
+        <div class="popular-container" id="popular-container">
+          <div class="popular-item-1">
+            <div class="popular-car-title">Porsche</div>
+            <div class="popular-brand">Turbo S</div>
+            <img
+              src="/images/Popular_1-removebg-preview-removebg-preview.png"
+              alt=""
+              class="popular-img"
+            />
+            <div class="popular-price">$90,000</div>
+            <button class="popular-button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </div>
+
+          <div class="popular-item-2">
+            <div class="popular-car-title">Porsche</div>
+            <div class="popular-brand">Taycan</div>
+            <img
+              src="/images/Porsche_2023-removebg-preview.png"
+              alt=""
+              class="popular-img"
+              width="300px"
+            />
+            <div class="popular-price">$75,678</div>
+            <button class="popular-button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </div>
+          <div class="popular-item-3">
+            <div class="popular-car-title">Porsche</div>
+            <div class="popular-brand">Turbo S cross</div>
+            <img
+              src="/images/porsche_2-removebg-preview.png"
+              alt=""
+              class="popular-img"
+            />
+            <div class="popular-price">$110,234</div>
+            <button class="popular-button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </div>
+          <div class="popular-item-4">
+            <div class="popular-car-title">Porsche</div>
+            <div class="popular-brand">Boxster 718</div>
+            <img
+              src="/images/Porsche_4_Boxster_718-removebg-preview (1).png"
+              alt=""
+              class="popular-img"
+            />
+            <div class="popular-price">$60,950</div>
+            <button class="popular-button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </div>
+          <div class="popular-item-5">
+            <div class="popular-car-title">Porsche</div>
+            <div class="popular-brand">Cayman</div>
+            <img
+              src="/images/Porsche_5_Cayman-removebg-preview.png"
+              alt=""
+              class="popular-img"
+            />
+            <div class="popular-price">$58,850</div>
+            <button class="popular-button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </div>
+
+          <div class="popular-item-6">
+            <div class="popular-car-title">Porsche</div>
+            <div class="popular-brand">Carrera</div>
+            <img
+              src="/images/Porsche_Car_Carrera-removebg-preview.png"
+              alt=""
+              class="popular-img"
+              id="popular-img"
+              width="300px"
+            />
+            <div class="popular-price" id="popular-price">$78,850</div>
+            <button class="popular-button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ============================== FEATURED ================================ -->
+      <section id="featured">
+        <h2 class="section-title" id="featured-title">Featured Luxury Cars</h2>
+        <div class="featured-container">
+          <ul class="featured-filters" id="featured-filters">
+            <li>
+              <button class="featured-item active-featured" data-filter="all">
+                <span>ALL</span>
+              </button>
+            </li>
+            <li>
+              <button class="featured-item" data-filter=".tesla">
+                <img src="/images/Tesla_logo-removebg-preview.png" alt="" />
+              </button>
+            </li>
+            <li>
+              <button class="featured-item" data-filter=".audi">
+                <img src="/images/Audi_logo-removebg-preview.png" alt="" />
+              </button>
+            </li>
+            <li>
+              <button class="featured-item" data-filter=".bmw">
+                <img src="/images/bmw_logo-removebg-preview.png" alt="" />
+              </button>
+            </li>
+          </ul>
+
+          <div class="featured-content" id="featured-content">
+            <article class="featured-card mix tesla">
+              <h1 class="featured-title">Tesla</h1>
+              <h3 class="featured-subtitle">Model X</h3>
+              <img
+                src="/images/Tesla_Car_Model-3-removebg-preview.png"
+                alt=""
+                class="featured-img"
+              />
+              <h3 class="featured price">$40,000</h3>
+              <button class="featured-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </article>
+
+            <article class="featured-card mix tesla">
+              <h1 class="featured-title">Tesla</h1>
+              <h3 class="featured-subtitle">Model 3</h3>
+              <img
+                src="/images/Tesla_car-removebg-preview-removebg-preview.png"
+                alt=""
+                class="featured-img"
+              />
+              <h3 class="featured price">$37,000</h3>
+              <button class="featured-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </article>
+
+            <article class="featured-card mix audi">
+              <h1 class="featured-title">Audi</h1>
+              <h3 class="featured-subtitle">Q7</h3>
+              <img
+                src="/images/Audi_Car_Q-7-removebg-preview.png"
+                alt=""
+                class="featured-img"
+              />
+              <h3 class="featured price">$19,340</h3>
+              <button class="featured-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </article>
+            <article class="featured-card mix bmw">
+              <h1 class="featured-title">Bmw</h1>
+              <h3 class="featured-subtitle">8-serie</h3>
+              <img src="/images/Bmw_car.png" alt="" class="featured-img" />
+              <h3 class="featured price">$16,309</h3>
+              <button class="featured-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </article>
+
+            <article class="featured-card mix audi">
+              <h1 class="featured-title">Audi</h1>
+              <h3 class="featured-subtitle">E-tron</h3>
+              <img
+                src="/images/Audi_Car_E-tron-removebg-preview.png"
+                alt=""
+                class="featured-img"
+              />
+              <h3 class="featured price">$20,203</h3>
+              <button class="featured-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </article>
+
+            <article class="featured-card mix bmw">
+              <h1 class="featured-title">Bmw</h1>
+              <h3 class="featured-subtitle">7-serie</h3>
+              <img
+                src="/images/BMW-7-Series-2020-1.png"
+                alt=""
+                class="featured-img"
+              />
+              <h3 class="featured price">$13,483</h3>
+              <button class="featured-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- ====================== LOGOS SECTION ========================= -->
+      <section id="logos" >
+        <div class="logo-1">
+          <img
+            src="/images/Tesla_logo-removebg-preview.png"
+            alt=""
+            class="logo-img"
+          />
+        </div>
+        <div class="logo-2">
+          <img
+            src="/images/Porsche_Logo-removebg-preview.png"
+            alt=""
+            class="logo-img"
+          />
+        </div>
+        <div class="logo-3">
+          <img
+            src="/images/bmw_logo-removebg-preview.png"
+            alt=""
+            class="logo-img"
+          />
+        </div>
+        <div class="logo-4">
+          <img
+            src="/images/Audi_logo-removebg-preview.png"
+            alt=""
+            class="logo-img"
+          />
+        </div>
+      </section>
+      <!-- =================== FOOTER SECTION =========================== -->
+      <footer>
+        <section id="footer">
+          <div class="footer-container" id="footer-container">
+            <div class="footer-title-1">
+              <i class="bx bxs-layer"></i> AutoMuli
+            </div>
+            <div class="footer-title-2">
+              <h3 class="footer-subtitle">Company</h3>
+              <p><a href="#">About</a></p>
+              <p><a href="#">Cars</a></p>
+              <p><a href="#">History</a></p>
+              <p><a href="#">Shop</a></p>
+            </div>
+            <div class="footer-title-3">
+              <h3 class="footer-subtitle">Information</h3>
+              <p><a href="#">Requet a quote</a></p>
+              <p><a href="#">Find a dealer</a></p>
+              <p><a href="#">Contact us</a></p>
+              <p><a href="#">Service</a></p>
+            </div>
+            <div class="footer-title-4">
+              <h3 class="footer-subtitle">Follow Us</h3>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </main>
+
+    <a href="#Scroll-up" class="Scroll-up"
+      ><i class="bx bx-up-arrow-alt"></i
+    ></a>
+
+    <!-- ============= JS LINK ===================-->
+    <script src="main.js"></script>
+    <!-- =========== SCROLL ANIMATION LINK =============== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- =========== MIXITUP LINK ======================= -->
+    <script src="https://cdn.jsdelivr.net/npm/mixitup/dist/mixitup.min.js"></script>
+  
+  </body>
+</html>
