@@ -560,7 +560,7 @@ img {
     gap: 8rem;
   }
 }
-@media (max-width: 415px) {
+@media (min-width: 390px) and (max-width: 415px) {
   #home{
     margin-right: 50px;
   }
