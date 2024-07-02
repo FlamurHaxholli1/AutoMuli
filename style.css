@@ -560,9 +560,9 @@ img {
     gap: 8rem;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 415px) {
   #home{
-    margin-right: 60px;
+    margin-right: 50px;
   }
   #home-button{
     padding: 25px 0;
